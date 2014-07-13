@@ -1,22 +1,22 @@
 {
-	"name": "socialh4ck/twitter",
+    "name": "socialh4ck/twitter",
 	"description": "A simple Laravel 4 service provider for including the TwitterOAuth library.",
-	"keywords": ["laravel","laravel-4", "twitter"],
-	"authors": [
+    "keywords": ["Twitter", "laravel", "laravel4"],
+    "authors": [
         {
             "name": "socialh4ck",
             "email": "eflorez@socialh4ck.com"
         }
     ],
-	"require": {
-		"php": ">=5.4.0",
+    "require": {
+        "php": ">=5.4.0",
         "illuminate/support": "4.2.*",
 		"socialh4ck/twitteroauth": "master"
-	},
-	"autoload": {
-		"psr-0": {
-			"Socialh4ck\\Twitter": "src/"
-		}
-	},
-	"minimum-stability": "dev"
+    },
+    "autoload": {
+        "psr-0": {
+            "Socialh4ck\\Twitter": "src/"
+        }
+    },
+    "minimum-stability": "dev"
 }
