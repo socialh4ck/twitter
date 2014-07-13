@@ -19,7 +19,7 @@ The TwitterOAuth Service Provider can be installed via Composer by requiring the
 
 Next you will need to publish the package config:
 
-`php artisan config:publish --path=socialh4ck/twitter socialh4ck/twitter`
+`php artisan config:publish socialh4ck/twitter`
 
 You can setup your **CONSUMER_KEY** and **CONSUMER_SECRET** inside `app/config/packages/socialh4ck/twitter/config.php`.
 
