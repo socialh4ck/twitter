@@ -10,7 +10,8 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
+        "illuminate/support": "4.2.*",
+		"socialh4ck/twitteroauth": "dev-master"
     },
     "autoload": {
         "psr-0": {
