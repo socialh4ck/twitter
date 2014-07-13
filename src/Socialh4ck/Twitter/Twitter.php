@@ -2,7 +2,7 @@
 
 use Config;
 
-class Twitter extends \Socialh4ck\Twitter\BaseTwitter {
+class Twitter extends \Socialh4ck\Twitter\Twitter {
 
 	/**
 	 * Default constructor
